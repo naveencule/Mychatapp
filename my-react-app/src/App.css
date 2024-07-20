@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #0033A0; /* FC Barcelona Blue */
+  color: #FFCC00; /* FC Barcelona Yellow */
+  height: 100vh;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #DA291C; /* FC Barcelona Red */
+  padding: 20px;
+  border-bottom: 5px solid #FFCC00; /* FC Barcelona Yellow */
+}
+
+h1 {
+  color: #FFCC00; /* FC Barcelona Yellow */
+}
+
+.message-container, .interest-container {
+  background-color: #F5F5F5; /* Light Grey for readability */
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 600px;
+  text-align: left;
+  border: 1px solid #0033A0; /* FC Barcelona Blue */
+}
+
+.message-item, .interest-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #DA291C; /* FC Barcelona Red */
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+.message-item img, .interest-item img {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #DA291C; /* FC Barcelona Red */
+  border-radius: 5px;
+  font-size: 16px;
+}

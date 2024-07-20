@@ -1,0 +1,10 @@
+/* src/components/ChatMessages.css */
+
+.ChatMessages {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .MessageItem img {
+    margin-left: 10px;
+  }
+  
